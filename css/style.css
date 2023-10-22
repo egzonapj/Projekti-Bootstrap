@@ -1,0 +1,223 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #040000;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f3f3;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  letter-spacing: 0.2cap;
+}
+h2 {
+  position: relative;
+  width: 300px;
+}
+h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 7px;
+  background: #f8bc1a;
+  bottom: -15px;
+  right: 35%;
+  border-radius: 10px;
+}
+.yellow {
+  color: #f8bc1a;
+}
+/* buttons */
+.btn-box {
+  width: 165px;
+  text-align: center;
+  margin: 5px;
+  font-size: medium;
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 2px;
+}
+.btn-container a, .about a{
+  text-decoration: none;
+}
+.btn-1 {
+  background-color: #f8bc1a;
+  border: 1px solid #f8bc1a;
+  color: #ffffff;
+}
+
+.btn-container a:first-child:hover{
+  background-color: #f8bc1a00;
+  color: #f8bc1a;
+  border-width: 2px;
+}
+.btn-container a:nth-child(2):hover{
+  background-color: #f8bc1a00;
+  color: #ffffff;
+  border-width: 2px;
+}
+.btn-2 {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #040000;
+}
+.btn-3 {
+  background-color: #040000;
+  border: 1px solid #040000;
+  color: #ffffff;
+}
+
+/* main nav section */
+.main_nav {
+  background-color: #f8bc1a;
+  color: #040000;
+}
+.main_nav a {
+  color:  #040000; 
+}
+.main_nav a:hover {
+  color: #ffffff;
+}
+.main_nav .navbar-toggler, .main_nav .navbar-toggler-icon {
+  border-color: #040000;
+}
+
+/* banner section */
+.banner {
+  background-image: url(../images/main-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+.image-overlay {
+  width: 100%;
+  min-height: 600px;
+  background-color: rgba(114, 23, 189, 0.541);
+  padding-top: 150px;
+}
+
+/* about section */
+.about {
+  background-color:  #f4f3f3;
+}
+.about a:hover {
+  background-color: #f8f8f8;
+  color: #040000;
+  border-width: 2px;
+}
+
+/* service section */
+.service-box {
+  position: relative;
+}
+.visible-heading {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+.service-box:hover .visible-heading {
+  display: none;
+}
+.service-box:hover .section-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(114, 23, 189, 0.541);
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-box:hover .section-hover img {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: #f8bc1a;
+  padding: 5px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.section-hover {
+  display: none;
+}
+
+/* contact section */
+iframe{
+  width: 100%;
+  height: 100%;
+}
+.contact-form input[type=submit]:hover{
+  background-color: #f4f3f3;
+  color: #f8bc1a;
+  border-width: 2px;
+}
+
+/* memberships section */
+.memberships {
+  background-color: #3c0e78;
+  color: #ffffff;
+}
+.carousel-item img {
+  background-color:#040000;
+  opacity: 50%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: #f8bc1a !important;
+  height: 20% !important;
+  padding: 0 20px;
+}
+.carousel-inner {
+  margin-bottom: 50px;
+}
+.slider-item {
+  border: 4px solid #f8bc1a;
+  box-shadow: 5px 10px #88888833;
+}
+.slider-article {
+  border-top: 2px solid #f8bc1a;
+  background-color: #f8bc1aD9;
+}
+.slider-article a {
+  text-decoration: none;
+  border: 2px solid white;
+}
+.slider-article a:hover {
+  color:#3c0e78;
+  background-color:#ffffff;
+  border-width: 2px;
+  border: 2px solid #3c0e78;
+}
+
+/* footer section */
+.footer-menu li a, .info_link-box a, .info_social a, .footer-links li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-menu li, .footer-links li, .info_link-box li, .info_social {
+  list-style-type: none;
+  margin: 5px 0;
+}
+.footer-menu, .footer-links {
+  padding-left: 0 !important;
+}
+.info_link-box a {
+  margin-bottom: 10px !important;
+}
+.info_social a:hover, .footer-menu li a:hover, .info_link-box a:hover, .info_social a:hover, .footer-links li a:hover  {
+  color:#f8bc1a;
+}
+.border-rad{
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  color: #fff;
+  background-color: #f8bc1a !important;
+  border-color: #f8bc1a !important;
+}
+.border-rad:hover{
+  letter-spacing: 0.2cap;
+
+}
